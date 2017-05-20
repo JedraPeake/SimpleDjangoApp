@@ -1,16 +1,18 @@
 # SimpleDjangoApp
 
 ## Instructions
+- ```$git clone https://github.com/JedraPeake/SimpleDjangoApp.git```
+- ```cd simpledjangoapp```
 
 #### Setting up the docker machine
-- Step 1. ```$docker-machine create -d virtualbox dev;```
-- Step 2. ```$eval $(docker-machine env dev)```
-- Step 3. ```$docker-machine ls```
+- ```$docker-machine create -d virtualbox dev;```
+- ```$eval $(docker-machine env dev)```
+- ```$docker-machine ls```
 
 #### Docker Compose
-- Step 4. ```$docker-compose build```
-- Step 5. ```$docker-compose up -d```
-- Step 6. ```$docker-compose run web python manage.py migrate```
+- ```$docker-compose build```
+- ```$docker-compose up -d```
+- ```$docker-compose run web python manage.py migrate```
 
 #### Grab IP
-- Step 7. ```$docker-machine ip dev```
+- ```$docker-machine ip dev```
