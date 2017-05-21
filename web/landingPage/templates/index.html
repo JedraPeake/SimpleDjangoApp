@@ -1,8 +1,10 @@
 <!doctype html>
+{% load static %}
 <html>
   <head>
      <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" type="text/css" href="SimpleDjangoApp\web\landingPage\static\css">
+    <link rel="stylesheet" href="{% static 'css/landingPage.css' %}">
+
      <title>CS256: Mobile Web development - structure</title>
   </head>
   <body>
@@ -74,14 +76,6 @@
       <caption>
         <p>Data from <a href="http://gs.statcounter.com/#desktop+mobile+tablet-comparison-ww-monthly-201303-201403">StatsCounter</a></p>
       </caption>
-
-      <colgroup>
-        <col span="1">
-        <col span="1">
-        <col span="1">
-        <col span="1">
-      </colgroup>
-
       <thead>
         <tr>
           <th>Country</th>
@@ -90,7 +84,12 @@
           <th>Mobile share</th>
         </tr>
       </thead>
-
+      <colgroup>
+        <col span="1">
+        <col span="1">
+        <col span="1">
+        <col span="1">
+      </colgroup>
         <tbody>
           <tr>
             <td data-th="Country"><a href="http://gs.statcounter.com/#desktop+mobile+tablet-comparison-IN-monthly-201303-201403">India</a></td>
