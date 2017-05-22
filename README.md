@@ -1,5 +1,5 @@
 # SimpleDjangoApp
-
+project available on dockerhub at jedra/simpledjangoapp
 ## Instructions
 - ```$git clone https://github.com/JedraPeake/SimpleDjangoApp.git```
 - ```cd simpledjangoapp```
