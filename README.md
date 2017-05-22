@@ -1,6 +1,12 @@
 # SimpleDjangoApp
 project available on dockerhub at jedra/simpledjangoapp
-## Instructions
+## Instructions with Python
+- ```$git clone https://github.com/JedraPeake/SimpleDjangoApp.git```
+- ```cd simpledjangoapp```
+- ```cd web```
+- ```python manage.py runserver```
+
+## Instructions with Docker
 - ```$git clone https://github.com/JedraPeake/SimpleDjangoApp.git```
 - ```cd simpledjangoapp```
 
